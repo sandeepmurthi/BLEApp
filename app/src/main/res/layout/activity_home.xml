@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3196e0"
+    android:orientation="vertical"
+    tools:context="com.example.bleapp.HomeActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_green_200"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/scan_setting"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_name"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/et_mac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_mac"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/et_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_uuid"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="10sp" />
+
+        <Switch
+            android:id="@+id/sw_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="AutoConnect ?"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#eeeeee"
+        android:padding="5dp" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_scan"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:text="@string/start_scan"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#FF5722"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/start_scan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:typeface="normal"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/img_loading"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_loading"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="@string/logout" />
+
+        <Button
+            android:id="@+id/Guage"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="My profile" />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Feedback" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#005F3535"
+            android:cacheColorHint="#CDDC39"
+            android:divider="#FFEB3B"
+            android:dividerHeight="0.5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:scrollbars="vertical"
+            android:textColor="#F44336">
+
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

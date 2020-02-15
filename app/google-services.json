@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248597435542",
+    "firebase_url": "https://bleapp-5694b.firebaseio.com",
+    "project_id": "bleapp-5694b",
+    "storage_bucket": "bleapp-5694b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248597435542:android:741c1fa0df90ad0ce49eb7",
+        "android_client_info": {
+          "package_name": "com.example.bleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248597435542-dlean8nfulrbas1ligmnrhc60ckle5pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bleapp",
+            "certificate_hash": "87483967bd41fe72dfa478e9d824d97d5e0084eb"
+          }
+        },
+        {
+          "client_id": "248597435542-pfjb3ng2bbi5jsovvo8hpdcdv6f1e1l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPQvNKsn9PGmv06wk2v0SVtGnVtRtYmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248597435542-pfjb3ng2bbi5jsovvo8hpdcdv6f1e1l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

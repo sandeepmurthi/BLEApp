@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/gmail"
+        android:icon="@mipmap/gmail"
+        android:title="@string/gmail" />
+    <item
+        android:id="@+id/whatsapp"
+        android:icon="@mipmap/appwhat"
+        android:title="@string/whatsapp" />
+    <item android:id="@+id/None"
+        android:title="@string/none" />
+
+</menu>
